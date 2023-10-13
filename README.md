@@ -6,7 +6,7 @@
 
 大家好，我叫美. 💃🏻✨
 Hello everyone, my name is Mei and I'm from Banjarmasin. I am currently a Civil Engineer Girl who really likes to design and plan especially about road (flexible and rigid pavement), deep foundation and abutment in bridges. 
-I hope I'll get so many new esxperiences and get to know new people from many backgrounds in this Revou Software Engineer School.
+I hope I'll get so many new esxperiences and get to know new people from many backgrounds in this Revou Software Engineer School. muehehehehehehehhehe
 我很高兴认识你们也希望你们有好日.
 It's very nice to know you also have a good day.
 
