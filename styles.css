@@ -1,0 +1,74 @@
+body {
+    background-image: url(https://img.freepik.com/free-photo/loft-luxury-living-room-with-bookshelf-near-dining-table_105762-1796.jpg?w=1060&t=st=1697630455~exp=1697631055~hmac=9a1315b6d563572650d1a437c0f3594466a2530b25c7d85cd965e06546aaff74);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-style: oblique;
+}
+.toplogo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navigation-bar {
+    display: flex;
+}
+.home {
+    background-color: #ead7bb8f;
+    background-attachment: fixed;
+    border: none;
+}
+.unordered-list {
+    list-style: none;
+    text-align: center;
+}
+.autocad {
+    background-color: #bca37f95;
+    margin: 0;
+}
+.autocadcol {
+    display: flex;
+    justify-content: center;
+}
+.text {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.sketchup {
+    background-color: rgba(176, 139, 91, 0.571);
+}
+.skecthcol {
+    display: flex;
+    justify-content: center;
+}
+.contactus {
+    background-color: #1139468d;
+    justify-content: center;
+    align-items: center;
+}
+.containerform {
+    justify-content: center;
+    align-items: center;
+}
+#form {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(21, 102, 140, 0.623);
+    font-size: 15px;
+}
+#form input {
+    border-radius: 25px;
+}
+#form select {
+    border-radius: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#form button {
+    padding: 10px;
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.836);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 15px;
+}

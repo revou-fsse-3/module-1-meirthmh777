@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Designer</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="styles.css">
+    <header class="header">
+        <nav class="toplogo" id="meirthmh">
+            <h1>House Designer</h1>
+            <div class="navigation-bar">
+                <a href="/Home/">Home</a>
+                <a href="/Autocad Design/">2D Design</a>
+                <a href="/Sketchup Design/">3D Design</a>
+            </div>
+            <div class="about">
+                <a href="/Contact Us/">Contact Us</a>
+                <a href="about">About</a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="home">
+            <h2 class="text">Your Dream House</h2>
+            <p class="text">House is a comfort place. Everytime you go back from work, you maybe think "I will rest for a while in my house." or you are in "Do not disturb mode" that's when you feel your house is your comfort zone.
+                Designing a health, efficient, and comfort house is a must based on your needs. And of course beside three things before you have to budget how much does it cost for planning your dream house. In this House Designer Website we are going to introduce you our designs:<br>
+            </p>
+            <ul>
+                <li class="unordered-list">2D Designs using Autocad App</li>
+                <li class="unordered-list">3D Designs using Sketchup App</li>
+            </ul>
+        </section>
+        <section class="autocad">
+            <h2 class="text">Autocad Design</h2>
+            <p class="text">Let's take a look our 2D Dimension designs using Autocad!</p>
+            <div class="autocadcol">
+                <img src="assets/design 1.png" alt="Autocad Design" width="300" heigth="50">
+                <img src="assets/design 2.png" alt="Autocad Design" width="300" heigth="50">
+            </div>
+        </section>
+        <section class="sketchup">
+            <h2 class="text">Sketchup Design</h2>
+            <p class="text">Let's take a look our ongoing 3D Design using Sketchup.</p>
+            <div class="skecthcol">
+                <img src="assets/Ongoing 3D design 6.png" alt="Sketchup Design" width="300" heigth="50">
+                <img src="assets/Ongoing 3D design 1.png" alt="Sketchup Design" width="300" heigth="50">
+            </div>
+            <div class="skecthcol">
+                <img src="assets/Ongoing 3D design 2.png" alt="Sketchup Design" width="300" heigth="50">
+                <img src="assets/Ongoing 3D design 3.png" alt="Sketchup Design" width="300" heigth="50">
+            </div>
+            <div class="skecthcol">
+                <img src="assets/Ongoing 3D design 4.png" alt="Sketchup Design" width="300" heigth="50">
+                <img src="assets/Ongoing 3D design 5.png" alt="Sketchup Design" width="300" heigth="50">
+            </div>
+        </section>
+    </main>
+    
+    <footer class="contactus">
+        <section>
+            <h2 class="text" style="color: aliceblue;">Contact Us!</h2>
+            <p class="text" style="color: aliceblue;">It's your time to make your dream house. Any request? Let's discuss it!</p>
+            <div class="containerform">
+                <form class="text" id="form">
+                    <label for="name" style="color: aliceblue;">Name:</label>
+                    <input type="text" name="name" id="name" required><br><br>
+                    <label for="email" style="color: aliceblue;">Email:</label>
+                    <input type="email" name="email" id="email" required><br><br>
+                    <label for="password" style="color: aliceblue;">Password:</label>
+                    <input type="password" name="password" id="password" required><br><br>
+                    <label for="gender" style="color: aliceblue;">Gender:</label>
+                    <input type="radio" id="Female" name="gender" value="Female" readonly>
+                    <label for="Female" style="color: aliceblue;">Female</label>
+                    <input type="radio" id="Male" name="gender" value="Male" required>
+                    <label for="Male" style="color: aliceblue;">Male</label>
+                    <input type="radio" id="Other" name="gender" value="Other" required>
+                    <label for="Other" style="color: aliceblue;">Other</label> <br><br>
+                    <label for="dropdown" style="color: aliceblue;">Country:</label>
+                    <select id="dropdown" name="dropdown" required>
+                        <option value="">--Select--</option>                        
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="China">China</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="None of them">Other country</option>
+                    </select> <br><br>
+                    <label for="message" style="color: aliceblue;">Message</label>
+                    <input type="text" name="message" id="messagebox" placeholder="Write your requests!"> <br><br>
+                    <button type="click" id="Sign Up">Sign Up</button>
+                    <button type="click" id="Sign in">Sign In</button>
+                </form>
+            </div>
+        </section>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
