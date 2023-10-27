@@ -91,16 +91,29 @@ header {
         transform: translateY(-7px) rotate(-45deg);
     }
     .navbar {
-        display: none;      /*on small screen hides*/ /*masih mau direvisi*/
+      /*on small screen hides*/ /*masih mau direvisi*/
+        display: flex;  
+        justify-content: center;
+        flex-direction: column;
         position: fixed;
-        left: -100%;
+        left: 0;
+        transform: translatex(-100%);
+        z-index: 10;
         top: 70px;
         gap: 0;
         flex-direction: column;
-        background-color: #000;
-        width: 100%;
+        background-color: rgba(0, 0, 0, 0.6);
+        width: 100vw;
+        height: 100vw;
         text-align: center;
         transition: 0.55s;
+    }
+    .active {
+        transform: translatex(0);
+    }
+    .active > a {
+        font-size: 2rem;
+
     }
 }
 
