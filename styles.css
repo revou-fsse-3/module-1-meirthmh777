@@ -100,7 +100,7 @@ header {
         background-color: #000;
         width: 100%;
         text-align: center;
-        transition: 0.88s;
+        transition: 0.55s;
     }
 }
 
@@ -242,14 +242,19 @@ li {
 #messagebox {
     height: 80px;
 }
+.button {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
 #signin, #signup {
     background-color: #034d7b;
     border: none;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: 15px;
     cursor: pointer;
-    transition: 0.55s ease;
+    transition: 0.88s ease;
 }
 #signup:hover, #signin:hover {
     background-color: #021c2c;
